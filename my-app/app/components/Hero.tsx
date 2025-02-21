@@ -1,15 +1,14 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { ArrowDown } from "lucide-react"
-import { useTheme } from "next-themes"
-import { Link as ScrollLink } from "react-scroll"
+import { motion } from "framer-motion";
+import { ArrowDown } from "lucide-react";
+// import { useTheme } from "next-themes";
+import { Link as ScrollLink } from "react-scroll";
 
 const Hero = () => {
-  const { theme } = useTheme()
 
   return (
-    <section id = "hero" className="relative min-h-screen flex items-center justify-center overflow-hidden w-full">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden w-full">
       <div className="absolute inset-0 z-0 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-purple-500 dark:from-blue-600 dark:to-purple-700 animate-gradient-x"></div>
         <div className="absolute inset-0 opacity-30 dark:opacity-20">
@@ -29,7 +28,7 @@ const Hero = () => {
             QuickReach AI – Powering Brands with Websites, AI Chatbots & High-Performance Marketing
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl mb-8 text-gray-700 dark:text-gray-300">
-            Fast, scalable, and AI-driven solutions that transform your brand's digital presence
+            Fast, scalable, and AI-driven solutions that transform your brand&apos;s digital presence
           </p>
           <ScrollLink to="contact" smooth={true} duration={500}>
             <motion.button
@@ -57,8 +56,7 @@ const Hero = () => {
         </motion.div>
       </ScrollLink>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
-
+export default Hero;
