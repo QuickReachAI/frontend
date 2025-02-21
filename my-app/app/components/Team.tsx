@@ -9,22 +9,19 @@ import yasir from "../assets/yasir.jpg";
 const teamMembers = [
   {
     name: "Udit",
-    role: "CTO",
-    subRole: "Co-Founder",
+    role: "Co-Founder",
     image: udit,
     quote: "With expertise in website development and AI model building, Udit helps brands achieve technical growth through innovative solutions. He specializes in developing advanced chatbots and eCommerce platforms, ensuring seamless digital experiences. Udit has also collaborated with researchers to drive AI-powered innovations, solving complex challenges and enabling businesses to scale efficiently in a competitive digital landscape.",
   },
   {
     name: "Aditya",
-    role: "CMO",
-    subRole: "Co-Founder",
+    role: "Co-Founder",
     image: aadi,
     quote: "Aditya is a results-driven marketing specialist with a proven track record of working with 150+ D2C brands, crafting high-impact Meta ad campaigns. He excels in driving growth through innovative strategies, precise brand positioning, and data-driven solutions, helping businesses scale efficiently and maximize their ROI.",
   },
   {
     name: "Yasir",
-    role: "COO",
-    subRole: "Co-Founder",
+    role: "Co-Founder",
     image: yasir,
     quote: "With expertise in Meta Ads, Yasir has successfully helped 200+ D2C brands achieve remarkable growth through data-driven advertising strategies. Specializing in creative optimization, precise targeting, and strategic ad placements, Yasir drives impactful results that increase ROI and boost brand presence. With a focus on customer engagement and sustainable success, Yasir ensures that every Meta ad campaign contributes to the long-term growth of D2C brands.",
   },
@@ -55,8 +52,7 @@ const Team = () => {
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">{member.name}</h3>
-                <p className="text-blue-600 dark:text-blue-400 mb-1">{member.role}</p>
-                <p className="text-gray-600 dark:text-gray-300 mb-4">{member.subRole}</p>
+                <p className="text-blue-600 dark:text-blue-400 mb-4">{member.role}</p>
                 <p className="text-gray-600 dark:text-gray-300 italic">&quot;{member.quote}&quot;</p>
               </div>
             </motion.div>
