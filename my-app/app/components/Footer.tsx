@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
+import { Facebook, Instagram, Linkedin } from "lucide-react"
 
 const Footer = () => {
   return (
@@ -68,9 +68,6 @@ const Footer = () => {
               <a href="https://www.facebook.com/profile.php?id=61573038855087" className="text-gray-400 hover:text-white transition-colors duration-300">
                 <Facebook size={20} />
               </a>
-              {/* <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
-                <Twitter size={20} />
-              </a> */}
               <a href="https://www.instagram.com/quickreach.ai/" className="text-gray-400 hover:text-white transition-colors duration-300">
                 <Instagram size={20} />
               </a>
