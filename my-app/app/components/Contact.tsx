@@ -35,17 +35,17 @@ const Contact = () => {
       } else {
         setError(true);
       }
-    } catch (err) {
+    } catch {
       setError(true);
     }
   };
 
   return (
-    <section id = "contact" className="py-20 bg-gray-100 dark:bg-gray-800">
+    <section id="contact" className="py-20 bg-gray-100 dark:bg-gray-800">
       <div className="w-full px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Contact Us</h2>
-          <p className="text-xl text-gray-600 dark:text-gray-300">We'd love to hear from you. Get in touch with us!</p>
+          <p className="text-xl text-gray-600 dark:text-gray-300">We&apos;d love to hear from you. Get in touch with us!</p>
         </motion.div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }}>
@@ -80,7 +80,7 @@ const Contact = () => {
               <span className="text-gray-700 dark:text-gray-300">quickreach.ai@gmail.com</span>
             </div>
             <div className="pt-4">
-              <p className="text-gray-600 dark:text-gray-400">We're available 24/7 to assist you. Don't hesitate to reach out!</p>
+              <p className="text-gray-600 dark:text-gray-400">We&apos;re available 24/7 to assist you. Don&apos;t hesitate to reach out!</p>
             </div>
           </motion.div>
         </div>
