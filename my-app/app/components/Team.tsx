@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import Image from "next/image"
-import udit from '../assets/udit_kau.jpg'
-import aadi from '../assets/aditya.jpg'
-import yasir from '../assets/yasir.JPG'
+import { motion } from "framer-motion";
+import Image from "next/image";
+import udit from "../assets/udit_kau.jpg";
+import aadi from "../assets/aditya.jpg";
+import yasir from "../assets/yasir.JPG";
 
 const teamMembers = [
   {
@@ -26,9 +26,9 @@ const teamMembers = [
     role: "COO",
     subRole: "Co-Founder",
     image: yasir,
-    quote: "With expertise in Meta Ads, Yasir has successfully helped 200+ D2C brands achieve remarkable growth through data-driven advertising strategies. Specializing in creative optimization, precise targeting, and strategic ad placements, Yasir drives impactful results that increase ROI and boost brand presence. With a focus on customer engagement and sustainable success, Yasir ensures that every Meta ad campaign contributes to the long-term growth of D2C brands.",
+    quote: "With expertise in Meta Ads, Yasir has successfully helped 200+ D2C brands achieve remarkable growth through data-driven advertising strategies. Specializing in creative optimization, precise targeting, and strategic ad placements, Yasir drives impactful results that increase ROI and boost brand presence. With a focus on customer engagement and sustainable success, Yasir ensures that every Meta ad campaign contributes to the long-term growth of D2C brands.",
   },
-]
+];
 
 const Team = () => {
   return (
@@ -57,14 +57,14 @@ const Team = () => {
                 <h3 className="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">{member.name}</h3>
                 <p className="text-blue-600 dark:text-blue-400 mb-1">{member.role}</p>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">{member.subRole}</p>
-                <p className="text-gray-600 dark:text-gray-300 italic">"{member.quote}"</p>
+                <p className="text-gray-600 dark:text-gray-300 italic">&quot;{member.quote}&quot;</p>
               </div>
             </motion.div>
           ))}
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Team
+export default Team;
