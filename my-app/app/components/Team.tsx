@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import udit from "../assets/udit_kau.jpg";
 import aadi from "../assets/aditya.jpg";
-import yasir from "../assets/yasir.JPG";
+import yasir from "../assets/yasir.jpg";
 
 const teamMembers = [
   {
