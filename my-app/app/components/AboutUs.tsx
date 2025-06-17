@@ -35,7 +35,7 @@ const AboutUs = () => {
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Our Story</h3>
             <p className="text-gray-600 dark:text-gray-300 mb-6">
               Founded in 2024, QuickReach AI was born from a vision to transform how businesses establish and scale their
-              digital presence. Our co-founders, <strong>Udit, Aditya, and Yasir</strong>, all alumni of the <strong>University of Delhi</strong>,
+              digital presence. Our co-founders are alumni of the <strong>University of Delhi</strong>,
               recognized the growing demand for an integrated approach that seamlessly blends AI-powered marketing,
               advanced web development, and intelligent chatbot solutions.
             </p>
