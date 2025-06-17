@@ -71,10 +71,10 @@ const Contact = () => {
           </motion.div>
           <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }} className="space-y-6 bg-white dark:bg-gray-700 p-8 rounded-lg shadow-lg">
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Get in Touch</h3>
-            <div className="flex items-center space-x-4">
+{/*             <div className="flex items-center space-x-4">
               <Phone size={24} className="text-blue-600 dark:text-blue-400" />
-              <span className="text-gray-700 dark:text-gray-300">+91 8650442828</span>
-            </div>
+              <span className="text-gray-700 dark:text-gray-300">+91 1234567890</span>
+            </div> */}
             <div className="flex items-center space-x-4">
               <Mail size={24} className="text-blue-600 dark:text-blue-400" />
               <span className="text-gray-700 dark:text-gray-300">quickreach.ai@gmail.com</span>
